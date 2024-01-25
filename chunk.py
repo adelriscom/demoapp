@@ -1,7 +1,7 @@
 from pydub import AudioSegment
 import os
 
-def chunk_audio(file_path, output_directory, chunk_length_ms=60000):  # 60,000 ms = 1 minute
+def chunk_audio(file_path, output_directory, chunk_length_ms=600000):  # 60,000 ms = 1 minute
     # Determine the format based on the file extension
     file_format = file_path.split('.')[-1]
 
